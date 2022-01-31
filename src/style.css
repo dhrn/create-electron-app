@@ -1,0 +1,24 @@
+* {
+    font-family: Roboto;
+    text-align: center;
+}
+.App {
+    color: #ffffff;
+    text-align: center;
+    background: #242424;
+    height: 300px;
+    padding-top: 30px;
+}
+.electron-img {
+    height: 50px;
+    animation: Rotate 3s linear infinite;
+    margin-top: 30px;
+}
+@keyframes Rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
