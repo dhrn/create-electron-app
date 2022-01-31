@@ -5,9 +5,9 @@ var electronInstaller = require('electron-winstaller');
 const resultPromise = electronInstaller.createWindowsInstaller({
     appDirectory: './release-builds/create-electron-app-win32-ia32',
     outputDirectory: '.',
-    authors: 'Create react app',
+    authors: 'Create electron app',
     exe: 'create-electron-app.exe',
-    description: 'Vyapar Business Accounting App',
+    description: 'Electron Application',
     setupExe: 'create-electron-app.exe',
     noMsi: true,
 });
